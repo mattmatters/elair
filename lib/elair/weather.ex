@@ -13,7 +13,7 @@ defmodule Elair.Weather do
     |> handle_response
   end
 
-  def weather_url(location), do @weather_url<>location<>".xml"
+  def weather_url(location), do: @weather_url<>location<>".xml"
 
 
   @doc """
