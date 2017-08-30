@@ -1,19 +1,14 @@
 # Elair
 
-**TODO: Add description**
+Wrapper for gathering airport information.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `elair` to your list of dependencies in `mix.exs`:
+Use mix to install and build the application.
+```sh
+mix deps.get
+mix escript.build
 
-```elixir
-def deps do
-  [{:elair, "~> 0.1.0"}]
-end
+# Now run
+./elair KDTO
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/elair](https://hexdocs.pm/elair).
-
