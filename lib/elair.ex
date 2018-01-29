@@ -13,8 +13,9 @@ defmodule Elair do
   """
   def run(location) do
     location
-    |> Elair.Weather.fetch
-    |> Elair.Formatter.format
+    |> Elair.Weather.fetch()
+    |> Elair.Formatter.format()
+
     System.halt(0)
   end
 end

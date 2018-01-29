@@ -6,13 +6,17 @@ defmodule Elair.CLI do
   end
 
   def parse_args(argv) do
-    parse = OptionParser.parse(argv, switches: [ help: :boolean ], aliases: [ h: :help ])
+    parse = OptionParser.parse(argv, switches: [help: :boolean], aliases: [h: :help])
+
     case parse do
-      { [ help: true ], _, _ }
-        -> :help
-      { _, [ location ], _ }
-        -> location
-      _ -> :help
+      {[help: true], _, _} ->
+        :help
+
+      {_, [location], _} ->
+        location
+
+      _ ->
+        :help
     end
   end
 
