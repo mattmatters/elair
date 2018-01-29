@@ -1,6 +1,12 @@
-# Elair
+# Elair :airplane: :cloud:
 
-Wrapper for gathering airport information.
+Get airport weather, but conveniently only for airport codes.
+
+# Usage
+
+```sh
+./elair (airport code)
+```
 
 ## Installation
 
