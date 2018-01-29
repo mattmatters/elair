@@ -1,4 +1,5 @@
 # Elair :airplane: :cloud:
+[![Build Status](https://travis-ci.org/mattmatters/elair.svg?branch=master)](https://travis-ci.org/mattmatters/elair)
 
 Get airport weather, but conveniently only for airport codes.
 
